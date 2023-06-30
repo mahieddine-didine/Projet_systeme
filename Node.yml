@@ -1,0 +1,18 @@
+sun_node:
+  ros__parameters:
+    parentframe_id: map
+    rad: 0.0
+    mass: 19000000
+    rayons: 3.9
+    per_rev: -1.0
+    per_rot: -1.0
+    childframe_id: soleil
+merc_node:
+  ros__parameters:
+    parentframe_id: soleil
+    childframe_id: mercure
+    mass: 19000000
+    rad: 6.5
+    rayons: 2.43
+    per_rev: -2.0
+    per_rot: -2.0
